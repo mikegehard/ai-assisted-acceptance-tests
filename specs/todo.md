@@ -12,8 +12,8 @@ This document serves as a comprehensive checklist for implementing the Playwrigh
   - [ ] Define folder organization for components
   - [ ] Set up build and test scripts
 - [ ] Set up GitHub repository
-  - [ ] Include LICENSE file (Apache License 2.0)
-  - [ ] Create initial README.md
+  - [X] Include LICENSE file (Apache License 2.0)
+  - [X] Create initial README.md
   - [ ] Configure GitHub Actions for CI/CD
 - [ ] Install core dependencies
   - [ ] Playwright
