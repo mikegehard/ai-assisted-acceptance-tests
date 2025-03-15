@@ -5,10 +5,13 @@ This document serves as a comprehensive checklist for implementing the Playwrigh
 ## Project Setup
 
 - [ ] Set up devcontainer for continuous development environment and LLM security. See https://github.com/mikegehard/ai-assisted-agile-development/blob/main/playbooks/ai-generated-code-execution.md for details.
-- [ ] Initialize TypeScript project
-  - [ ] Set up tsconfig.json with appropriate settings
-  - [ ] Configure ESLint/Prettier for code quality
-  - [ ] Set up Jest for testing
+- [ ] Initialize Python project
+  - [ ] Set up pyproject.toml with appropriate settings
+  - [ ] Set up uv.lock with appropriate settings
+  - [ ] Set up linter
+  - [ ] Set up formatter
+  - [ ] Set up test runner
+  - [ ] Set up type checker
 - [ ] Create initial project structure
   - [ ] Define folder organization for components
   - [ ] Set up build and test scripts

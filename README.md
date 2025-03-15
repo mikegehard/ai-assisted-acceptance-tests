@@ -22,3 +22,36 @@ This tool enables developers to quickly generate comprehensive, maintainable Pla
 ## 3. Goals
 
 PlaywrightFlowGen addresses the critical need for automated acceptance test generation, reducing the barrier to implementing comprehensive test coverage for web applications. By leveraging AI to analyze user flows and generate high-quality Playwright tests, this tool empowers developers to make changes with confidence, knowing that critical user-facing functionality is being tested.
+
+## 4. Running the Project
+
+### 4.1 Prerequisites
+
+- Python 3.13.x
+- UV package manager
+
+### 4.2 Running the Application
+
+To run the main application:
+
+```bash
+uv run src/main.py
+```
+
+### 4.3 Running with Arguments
+
+If you need to pass arguments to the application:
+
+```bash
+uv run src/main.py arg1 arg2
+```
+
+### 4.4 Running Modules
+
+To run a specific module:
+
+```bash
+uv run -m module_name
+```
+
+No virtual environment activation is required as UV handles dependencies automatically.
