@@ -29,29 +29,32 @@ PlaywrightFlowGen addresses the critical need for automated acceptance test gene
 
 - Python 3.13.x
 - UV package manager
+- OpenAI API key
 
-### 4.2 Running the Application
+### 4.2 Setup
+
+1. Install dependencies:
+```bash
+uv sync
+uv run playwright install
+```
+
+2. Set up environment variables:
+```bash
+cp .env.example .env
+```
+
+3. Add your OpenAI API key to the `.env` file:
+```bash
+OPENAI_API_KEY=your_openai_api_key_here
+```
+
+### 4.3 Running the Application
 
 To run the main application:
 
 ```bash
 uv run src/main.py
-```
-
-### 4.3 Running with Arguments
-
-If you need to pass arguments to the application:
-
-```bash
-uv run src/main.py arg1 arg2
-```
-
-### 4.4 Running Modules
-
-To run a specific module:
-
-```bash
-uv run -m module_name
 ```
 
 No virtual environment activation is required as UV handles dependencies automatically.
